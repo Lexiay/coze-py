@@ -4,6 +4,9 @@ from cozepy.auth import Auth
 from cozepy.model import AsyncNumberPaged, CozeModel, HTTPRequest, NumberPaged, NumberPagedResponse
 from cozepy.request import Requester
 
+# 音频编码格式，wav / pcm / ogg_opus / mp3，默认为 mp3
+# 只支持 "wav", pcm "ogg",  "mp3",  "m4a", "aac", "" 格式
+
 
 class Voice(CozeModel):
     # The id of voice
